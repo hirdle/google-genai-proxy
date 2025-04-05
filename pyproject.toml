@@ -6,37 +6,15 @@ name = "google-genai-proxy"
 version = "1.9.0"
 description = "GenAI Python SDK"
 readme = "README.md"
-license = {text = "Apache-2.0"}
-requires-python = ">=3.9"
-authors = [
-    { name = "Google LLC", email = "googleapis-packages@google.com" },
-]
-classifiers = [
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apache Software License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-    "Topic :: Internet",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-]
 dependencies = [
     "anyio>=4.8.0, <5.0.0",
     "google-auth>=2.14.1, <3.0.0",
     "httpx>=0.28.1, <1.0.0",
     "pydantic>=2.0.0, <3.0.0",
-    "requests>=2.25.1, <3.0.0",
+    "requests>=2.28.1, <3.0.0",
     "websockets>=13.0.0, <15.1.0",
     "typing-extensions>=4.11.0, <5.0.0",
 ]
-
-[project.urls]
-Homepage = "https://github.com/googleapis/python-genai"
 
 [tool.setuptools]
 packages = [
