@@ -14,7 +14,7 @@ Google Gen AI Python SDK provides an interface for developers to integrate Googl
 # MODIFY TO USE PROXY
 
 ```sh
-pip install google-genai
+pip install "git+https://github.com/hirdle/google-genai-proxy.git"
 ```
 
 ## Imports
