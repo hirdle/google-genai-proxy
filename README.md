@@ -20,8 +20,8 @@ pip install google-genai
 ## Imports
 
 ```python
-from google import genai
-from google.genai import types
+import genai_proxy as genai
+from genai_proxy import types
 ```
 
 ## Create a client
@@ -31,15 +31,9 @@ different services ([Gemini Developer API](https://ai.google.dev/gemini-api/docs
 
 ```python
 # Only run this block for Gemini Developer API
-client = genai.Client(api_key='GEMINI_API_KEY', proxy_string='')
+client = genai.Client(api_key='GEMINI_API_KEY', proxy_string='http://...')
 ```
 
-```python
-# Only run this block for Vertex AI API
-client = genai.Client(
-    vertexai=True, project='your-project-id', location='us-central1'
-)
-```
 
 **(Optional) Using environment variables:**
 
