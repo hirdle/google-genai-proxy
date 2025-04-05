@@ -40,7 +40,6 @@ Homepage = "https://github.com/googleapis/python-genai"
 
 [tool.setuptools]
 packages = [
-    "google-proxy",
-    "google-proxy.genai",
+    "genai_proxy",
 ]
 include-package-data = true
